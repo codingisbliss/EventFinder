@@ -1,0 +1,21 @@
+{
+  "profile": [],
+  "classification": {
+    "Music": {
+      "R&B": "KnvZfZ7vAee",
+      "Hip-Hop": "KnvZfZ7vAv1",
+      "Rap": "KnvZfZ7vAv1",
+      "Comedy": "KnvZfZ7vAe1",
+      "Classical": "KnvZfZ7v7nJ",
+      "Jazz": "KnvZfZ7vAvE",
+      "Foreign": "KnvZfZ7vAk1",
+      "Dance": "KnvZfZ7vAvF",
+      "Electronic": "KnvZfZ7vAvF"
+    },
+    "Film": {
+      "Horror": "FnvZfZ7vAee",
+      "Action": "FnvZfZ7vAv1",
+      "Romance": "FnvZfZ7vAv1"
+    }
+  }
+}
