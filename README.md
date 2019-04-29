@@ -2,7 +2,7 @@
 
 ## Usage
 
-ignore README.txt and SUMMAR.md
+ignore README.txt and SUMMARY.md
 Start node server 
 
 ```text
