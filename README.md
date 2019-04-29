@@ -2,6 +2,7 @@
 
 ## Usage
 
+ignore README.txt and SUMMAR.md
 Start node server 
 
 ```text
