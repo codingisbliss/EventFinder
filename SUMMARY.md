@@ -1,4 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Usage](README.md)
+* [Design details](design-details.md)
+* [Implementation details](implementation-details.md)
 
