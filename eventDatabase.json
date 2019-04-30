@@ -1,0 +1,43 @@
+{
+  "profile": [
+    {
+      "pid": "ef13b8a3-f175-497c-8023-6380fcc1c24b",
+      "email": "madhur2@gmail.com",
+      "password": "$2b$10$/y5GVKDtEJ/WjYCk0agpR.eILk1FzchKvQzx9b/8nBtk3Aq0.6Feq",
+      "classificationName": "Music",
+      "genreId": "KnvZfZ7vAv1"
+    },
+    {
+      "pid": "7f6c11ee-f046-455c-848c-23eb7c65b4e4",
+      "email": "madhur22@gmail.com",
+      "password": "$2b$10$iKKvCbd.Xwn3KbBlGx5ui.erZbSIyWb1ahXctzSzNPpRmb0qXiexC",
+      "classificationName": "Music",
+      "genreId": "KnvZfZ7vAv1"
+    },
+    {
+      "pid": "32a2de1e-6195-4ed7-a92a-21fc2ab57818",
+      "email": "madhur@gmail.com",
+      "password": "$2b$10$N2Ube9V02IBZpi8ImuctCO68sj7f.Ls.y63wi4O.2PqOGb/HF/io2",
+      "classificationName": "Music",
+      "genreId": "KnvZfZ7v7nJ"
+    }
+  ],
+  "classification": {
+    "Music": {
+      "R&B": "KnvZfZ7vAee",
+      "Hip-Hop": "KnvZfZ7vAv1",
+      "Rap": "KnvZfZ7vAv1",
+      "Comedy": "KnvZfZ7vAe1",
+      "Classical": "KnvZfZ7v7nJ",
+      "Jazz": "KnvZfZ7vAvE",
+      "Foreign": "KnvZfZ7vAk1",
+      "Dance": "KnvZfZ7vAvF",
+      "Electronic": "KnvZfZ7vAvF"
+    },
+    "Film": {
+      "Horror": "FnvZfZ7vAee",
+      "Action": "FnvZfZ7vAv1",
+      "Romance": "FnvZfZ7vAv1"
+    }
+  }
+}
