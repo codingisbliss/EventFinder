@@ -20,6 +20,13 @@
       "password": "$2b$10$N2Ube9V02IBZpi8ImuctCO68sj7f.Ls.y63wi4O.2PqOGb/HF/io2",
       "classificationName": "Music",
       "genreId": "KnvZfZ7v7nJ"
+    },
+    {
+      "pid": "85854f2d-4c32-4b2e-a756-4e2ed2181ffa",
+      "email": "madhur222@gmail.com",
+      "password": "$2b$10$v3Qt1EusOzdKNjRpNeUZS.zXd.g9fc.iKWJbVMJk8dcE2EPU/CLFK",
+      "classificationName": "Music",
+      "genreId": "KnvZfZ7v7nJ"
     }
   ],
   "classification": {

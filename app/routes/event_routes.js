@@ -2,13 +2,15 @@ module.exports = function(app, db) {
     app.post('/register', (req, res) => {
         const bcrypt = require('bcrypt');
         const saltRounds =10;
-        const test = req.body.email
+        //get values from browser
         const cName = req.body.collectionName;
         const genre = req.body.genre;
+        //use standard encryption for password protection
         var hash = bcrypt.hashSync(req.body.passwd, saltRounds);
         var res2 = db.search(req.body.email)
 
         if(res2 ==null){
+            //add data to database and check for error 
             var result = db.add(req.body.email,hash,cName,genre)
             if(result!= null){
                 res.send("Added user sucessfully...")
@@ -24,11 +26,11 @@ module.exports = function(app, db) {
     });
 
     app.get('/login', (req,res)=>{
+        //get parameters from browser
         const bcrypt = require('bcrypt');
         var email = req.body.email
         var passwdentred = req.body.passwd
         var getval = db.search(email)
-        //console.log(getval)
         if(getval == null){
             res.send("no such emailId exists")
         }
@@ -50,31 +52,36 @@ module.exports = function(app, db) {
         var myObj = db.search(req.session.user_id)
         const cName = myObj.classificationName
         const genreId = myObj.genreId
+        var flag =false;
+        // set basicAuth authentication 
         var options = {
             host: 'yv1x0ke9cl.execute-api.us-east-1.amazonaws.com',
             port: 443,
+            //call endpoint URI
             path: '/prod/events?classificationName='+cName+'&genreId='+genreId,
             // authentication headers
             headers: {
                'Authorization': 'Basic ' + new Buffer('stitapplicant' + ':' + 'zvaaDsZHLNLFdUVZ_3cQKns').toString('base64')
             }   
          };
-         var eventMsg ;
-         //this is the call
+         //set http request parameters
          request = https.get(options, function(res){
             var body = "";
             res.on('data', function(data) {
                body += data;
             });
             res.on('end', function() {
-               eventMsg = body;
+               //res.send("request sucessfuly!check cosole")
+               console.log(body);
+               flag =true;
             })
             res.on('error', function(e) {
                console.log("Got error: " + e.message);
+
             });
              });
-           
     });
+  
 
     app.post('/setPreferences',checkAuth, (req,res)=>{
         console.log("updating...")
