@@ -17,7 +17,7 @@ clone the code from git
 git clone https://github.com/codingisbliss/EventFinder.git
 ```
 
-Or if you don't have git installed in your system use [this](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) or download zip from [here](older version)(https://drive.google.com/open?id=1Yg92t8AQO-3uXkthk_hXdsXGPQP5-muY).
+Or if you don't have git installed in your system use [this](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) or download older version zip from [here](https://github.com/codingisbliss/EventFinder/tree/37b9a1fdc696105324a2e43dc62e0dcefb9a0c20/older%20version/README.md) .
 
 Start node server inside EventFinder directory
 
@@ -31,45 +31,46 @@ go to postman
 
 In Body select -&gt; \(x-www-form-urlencoded\) and type following keys:
 
+| Key name | description |
+| :--- | :--- |
+
+
+| email | Enter email Id you want to register with |
+| :--- | :--- |
+
+
+| passwd | Enter your password |
+| :--- | :--- |
+
+
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Key name</th>
-      <th style="text-align:left">description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">email</td>
-      <td style="text-align:left">Enter email Id you want to register with</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">passwd</td>
-      <td style="text-align:left">Enter your password</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">collectionName</td>
-      <td style="text-align:left">
+      <th style="text-align:left">collectionName</th>
+      <th style="text-align:left">
         <p>Enter any one of following (<b>Music</b> for now):</p>
         <p>&quot;Arts &amp; Theater&quot;, &quot;Film&quot;, &quot;Miscellaneous&quot;,
           &quot;Music&quot;, &quot;Sports&quot;, &quot;Undefined&quot;,&quot;Donation&quot;,
           &quot;Event Style&quot;, &quot;Group&quot;, &quot;Individual&quot;, &quot;Merchandise&quot;,
           &quot;Nonticket&quot;, &quot;Parking&quot;, &quot;Transportation&quot;,
           &quot;Upsell&quot;, &quot;Venue Based&quot;]</p>
-      </td>
+      </th>
     </tr>
+  </thead>
+  <tbody></tbody>
+</table><table>
+  <thead>
     <tr>
-      <td style="text-align:left">genre</td>
-      <td style="text-align:left">
+      <th style="text-align:left">genre</th>
+      <th style="text-align:left">
         <p>Enter any one of following:</p>
         <p>&quot;R&amp;B&quot;, &quot;Hip-Hop&quot;,&quot;Rap&quot;,&quot;Comedy&quot;,&quot;Classical&quot;,&quot;Jazz&quot;,&quot;Foreign&quot;,&quot;Dance&quot;,&quot;Electronic&quot;
           ,&quot;Comedy &quot;</p>
-      </td>
+      </th>
     </tr>
-  </tbody>
-</table>* [http://localhost:8000/login](http://localhost:8000/login) select "GET" 
-
-In Body select -&gt; \(x-www-form-urlencoded\) and type following keys:
+  </thead>
+  <tbody></tbody>
+</table>In Body select -&gt; \(x-www-form-urlencoded\) and type following keys:
 
 | Key Name | description |
 | :--- | :--- |
@@ -91,7 +92,7 @@ In Body select -&gt; \(x-www-form-urlencoded\) and use following keys:
 | collectionName | enter the collection you want to update your preference |
 | genre | Enter new genre |
 
-## Why Node.js?   <a id="why-node-js"></a>
+## Why Node.js?    <a id="why-node-js"></a>
 
 Apart from Node I had option of using Django and PHP, so I selected this Framework because:‌
 
@@ -99,7 +100,7 @@ Apart from Node I had option of using Django and PHP, so I selected this Framewo
 2. A better community support.
 3. Wanted to learn new language and enhance my skills.
 
-## Why low db?   <a id="why-low-db"></a>
+## Why low db?    <a id="why-low-db"></a>
 
 I favored this type of database because :‌
 
@@ -152,6 +153,4 @@ I favored this type of database because :‌
 2. I have passed email Id in session cookie which not secured. "pid"  could be used instead, however it add more request to server.
 3. ~~print output in postman from /getEvent instead of console.~~
 4. email Id regex checker to check argument received from front end
-
-
 
