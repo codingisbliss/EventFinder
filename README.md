@@ -1,19 +1,33 @@
+---
+description: code is written in node.js which uses lowdb
+---
+
 # EventFinder
 
 ## Dependencies required
 
-Following packages required to run this code from npm:
+Following packages required to run this code:
 
-1. [express](https://expressjs.com/en/starter/installing.html)
-2. [body-parser](https://www.npmjs.com/package/body-parser)
-3. [bcrypt](https://www.npmjs.com/package/bcrypt)
-4. [lowdb](https://github.com/typicode/lowdb)
+1. [node.js](https://nodejs.org/en/)
+2. [postman](https://www.getpostman.com/downloads/)
+3. [body-parser](https://www.npmjs.com/package/body-parser)
+4. [bcrypt](https://www.npmjs.com/package/bcrypt)
+5. [lowd](https://github.com/typicode/lowdb)
+6. [express](https://expressjs.com/en/starter/installing.html)
 
 ## Usage
 
 Ignore README.txt and SUMMARY.md 
 
-Start node server
+clone the code from git 
+
+```text
+git clone https://github.com/codingisbliss/EventFinder.git
+```
+
+Or if you don't have git  installed in your system use [this](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) or download zip from [here](https://drive.google.com/open?id=1Yg92t8AQO-3uXkthk_hXdsXGPQP5-muY).
+
+Start node server inside EventFinder  directory
 
 ```text
 node server.js
@@ -25,7 +39,7 @@ go to postman
 
 In Body select -&gt; \(x-www-form-urlencoded\) and type following keys:
 
-```text
+```c
 "email" - enter your email id.
 "passwd" - enter the password
 "collectionName" - Enter any one collection Name from dropdown/other:
@@ -38,7 +52,7 @@ In Body select -&gt; \(x-www-form-urlencoded\) and type following keys:
 
 In Body select -&gt; \(x-www-form-urlencoded\) and type following keys:
 
-```text
+```c
 "email" - your email emailId which was registered
 "passwd" - password for emailId used.
 ```
@@ -53,7 +67,7 @@ Output is given in console with error if any.
 
 In Body select -&gt; \(x-www-form-urlencoded\) and use following keys:
 
-```text
+```c
 "collectionName" - enter the collection you want to update your preference.
 "genre" - Enter new genre
 ```
