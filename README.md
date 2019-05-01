@@ -62,7 +62,7 @@ I favored this type of database because :‌
 
 1. It has high promise for CRUD operation on Database. 
 2. Better than SQLite because our app doesn't require lot on transnational requests.
-3. Equally good with CoucheDB, and less complex than MongoDB .
+3. Equally good with CouchebaseDB, and less complex than MongoDB .
 
 ## Implementation details
 
