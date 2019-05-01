@@ -41,7 +41,7 @@ In Body select -&gt; \(x-www-form-urlencoded\) and type following keys:
   <tbody>
     <tr>
       <td style="text-align:left">email</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Enter email Id you wan to register with</td>
     </tr>
     <tr>
       <td style="text-align:left">passwd</td>
