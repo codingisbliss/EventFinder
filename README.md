@@ -17,7 +17,7 @@ clone the code from git
 git clone https://github.com/codingisbliss/EventFinder.git
 ```
 
-Or if you don't have git installed in your system use [this](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) or download zip from [here](https://drive.google.com/open?id=1Yg92t8AQO-3uXkthk_hXdsXGPQP5-muY).
+Or if you don't have git installed in your system use [this](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) or download zip from [here](older version)(https://drive.google.com/open?id=1Yg92t8AQO-3uXkthk_hXdsXGPQP5-muY).
 
 Start node server inside EventFinder directory
 
