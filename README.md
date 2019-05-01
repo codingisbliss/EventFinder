@@ -8,10 +8,6 @@ Following packages required to run this code:
 
 1. [node.js](https://nodejs.org/en/)
 2. [postman](https://www.getpostman.com/downloads/)
-3. [body-parser](https://www.npmjs.com/package/body-parser)
-4. [bcrypt](https://www.npmjs.com/package/bcrypt)
-5. [lowd](https://github.com/typicode/lowdb)
-6. [express](https://expressjs.com/en/starter/installing.html)
 
 ## Usage
 
@@ -31,7 +27,7 @@ node server.js
 
 go to postman
 
-* **/register** select "POST"
+* **http://localhost:8000/register** select "POST"
 
 In Body select -&gt; \(x-www-form-urlencoded\) and type following keys:
 
@@ -71,7 +67,9 @@ In Body select -&gt; \(x-www-form-urlencoded\) and type following keys:
       </td>
     </tr>
   </tbody>
-</table>* **/login** select "GET" 
+</table>
+
+* **http://localhost:8000/login** select "GET" 
 
 In Body select -&gt; \(x-www-form-urlencoded\) and type following keys:
 
@@ -80,13 +78,13 @@ In Body select -&gt; \(x-www-form-urlencoded\) and type following keys:
 | email | your email email Id which was registered |
 | passwd | password for email Id used. |
 
-* **/getEvents** select "GET"
+* **http://localhost:8000/getEvents** select "GET"
 
 You need to use /login before accessing this endpoint else it will respond with "no Authorization" message.
 
 Output is given in console with error if any.
 
-* **/setPreferences** select "POST" 
+* **http://localhost:8000//setPreferences** select "POST" 
 
 In Body select -&gt; \(x-www-form-urlencoded\) and use following keys:
 
@@ -155,4 +153,5 @@ I favored this type of database because :‌
 1. In database, User could added with critical information like email Id, password and id and it profile information like collectionName, genreId could be stored separately to ensure security.
 2. I have passed email Id in session cookie which not secured. "pid"  could be used instead, however it add more request to server.
 3. print output in postman from /getEvent instead of console.
+4. email Id regex checker to check argument received from front end
 

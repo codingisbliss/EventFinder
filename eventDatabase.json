@@ -1,44 +1,16 @@
 {
   "profile": [
     {
-      "pid": "ef13b8a3-f175-497c-8023-6380fcc1c24b",
-      "email": "madhur2@gmail.com",
-      "password": "$2b$10$/y5GVKDtEJ/WjYCk0agpR.eILk1FzchKvQzx9b/8nBtk3Aq0.6Feq",
+      "pid": "7beab4a1-562f-47a3-845c-23367bf34548",
+      "email": "madhur45388@gmail.com",
+      "password": "$2b$10$zx12EnqArxGgkO2qkhDfd.vMSO.04FjVTY7vq9l14lvuv3vAN6j6i",
       "classificationName": "Music",
-      "genreId": "KnvZfZ7vAv1"
+      "genreId": "KnvZfZ7v7nJ"
     },
     {
-      "pid": "7f6c11ee-f046-455c-848c-23eb7c65b4e4",
-      "email": "madhur22@gmail.com",
-      "password": "$2b$10$iKKvCbd.Xwn3KbBlGx5ui.erZbSIyWb1ahXctzSzNPpRmb0qXiexC",
-      "classificationName": "Music",
-      "genreId": "KnvZfZ7vAv1"
-    },
-    {
-      "pid": "32a2de1e-6195-4ed7-a92a-21fc2ab57818",
+      "pid": "46f98c49-6cf9-4abe-a52e-910fcec839d5",
       "email": "madhur@gmail.com",
-      "password": "$2b$10$N2Ube9V02IBZpi8ImuctCO68sj7f.Ls.y63wi4O.2PqOGb/HF/io2",
-      "classificationName": "Music",
-      "genreId": "KnvZfZ7v7nJ"
-    },
-    {
-      "pid": "85854f2d-4c32-4b2e-a756-4e2ed2181ffa",
-      "email": "madhur222@gmail.com",
-      "password": "$2b$10$v3Qt1EusOzdKNjRpNeUZS.zXd.g9fc.iKWJbVMJk8dcE2EPU/CLFK",
-      "classificationName": "Music",
-      "genreId": "KnvZfZ7v7nJ"
-    },
-    {
-      "pid": "fc470351-0620-45ac-b94b-d9a0eaac1d6a",
-      "email": "madhur2442@gmail.com",
-      "password": "$2b$10$lCNA7S0m27EAUe67CFmuJu5wRdgrMnGgkUmjfxuslAdfOUTIbiN7a",
-      "classificationName": "Music",
-      "genreId": "KnvZfZ7v7nJ"
-    },
-    {
-      "pid": "1e920ffd-3717-4733-9251-ebbda72602d3",
-      "email": "madhur453@gmail.com",
-      "password": "$2b$10$Wmmy37rrYuNdsBQYdmgIh.UYTecQtoSaYLoDVeFbVmociyLTcUxJK",
+      "password": "$2b$10$R60ZoGW/vHGtNp.i/1eUhuHvkM.6qWxsmENiERSfNwYlEqnfTIKrq",
       "classificationName": "Music",
       "genreId": "KnvZfZ7v7nJ"
     }
