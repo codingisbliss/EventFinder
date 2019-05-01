@@ -15,8 +15,6 @@ Following packages required to run this code:
 
 ## Usage
 
-Ignore README.txt and SUMMARY.md 
-
 clone the code from git 
 
 ```text
