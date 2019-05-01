@@ -1,17 +1,27 @@
 # EventFinder
 
+## Dependencies required
+
+Following packages required to run this code from npm:
+
+1. [express](https://expressjs.com/en/starter/installing.html)
+2. [body-parser](https://www.npmjs.com/package/body-parser)
+3. [bcrypt](https://www.npmjs.com/package/bcrypt)
+4. [lowdb](https://github.com/typicode/lowdb)
+
 ## Usage
 
-ignore README.txt and SUMMARY.md
-Start node server 
+Ignore README.txt and SUMMARY.md 
+
+Start node server
 
 ```text
-node server.js    
+node server.js
 ```
 
 go to postman
 
-* /register select "POST"
+* **/register** select "POST"
 
 In Body select -&gt; \(x-www-form-urlencoded\) and type following keys:
 
@@ -24,7 +34,7 @@ In Body select -&gt; \(x-www-form-urlencoded\) and type following keys:
 [R&B,Hip-Hop/Rap,Comedy,Classical,Jazz,Foreign,Dance/Electronic ,Comedy ]
 ```
 
-*  /login select "GET" 
+* **/login** select "GET" 
 
 In Body select -&gt; \(x-www-form-urlencoded\) and type following keys:
 
@@ -33,22 +43,22 @@ In Body select -&gt; \(x-www-form-urlencoded\) and type following keys:
 "passwd" - password for emailId used.
 ```
 
-* /getEvents select "GET"
+* **/getEvents** select "GET"
 
 You need to use /login before accessing this endpoint else it will respond with "no Authorization" message.
 
 Output is given in console with error if any.
 
-* /setPreferences select "POST" 
+* **/setPreferences** select "POST" 
 
 In Body select -&gt; \(x-www-form-urlencoded\) and use following keys:
 
 ```text
 "collectionName" - enter the collection you want to update your preference.
-"genre" - Enter new genre 
+"genre" - Enter new genre
 ```
 
-## Why Node.js? <a id="why-node-js"></a>
+## Why Node.js?  <a id="why-node-js"></a>
 
 Apart from Node I had option of using Django and PHP, so I selected this Framework because:‌
 
@@ -56,13 +66,13 @@ Apart from Node I had option of using Django and PHP, so I selected this Framewo
 2. A better community support.
 3. Wanted to learn new language and enhance my skills.
 
-## Why low db? <a id="why-low-db"></a>
+## Why low db?  <a id="why-low-db"></a>
 
 I favored this type of database because :‌
 
 1. It has high promise for CRUD operation on Database. 
 2. Better than SQLite because our app doesn't require lot on transnational requests.
-3. Equally good with CouchebaseDB, and less complex than MongoDB .
+3. Equally good with Couchbase, and less complex than MongoDB .
 
 ## Implementation details
 
@@ -103,7 +113,7 @@ I favored this type of database because :‌
 }
 ```
 
-## TODO 
+## TODO
 
 1. In database, User could added with critical information like email Id, password and id and it profile information like collectionName, genreId could be stored separately to ensure security.
 2. I have passed email Id in session cookie which not secured. "pid"  could be used instead, however it add more request to server.
