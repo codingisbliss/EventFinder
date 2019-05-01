@@ -1,8 +1,6 @@
----
-description: code is written in node.js which uses lowdb
----
-
 # EventFinder
+
+Following application is developed using node.js and lowdb.
 
 ## Dependencies required
 
