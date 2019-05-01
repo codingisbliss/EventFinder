@@ -155,4 +155,5 @@ I favored this type of database because :‌
 1. In database, User could added with critical information like email Id, password and id and it profile information like collectionName, genreId could be stored separately to ensure security.
 2. I have passed email Id in session cookie which not secured. "pid"  could be used instead, however it add more request to server.
 3. print output in postman from /getEvent instead of console.
+4. email Id regex checker to check argument received from front end
 
