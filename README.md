@@ -37,23 +37,50 @@ go to postman
 
 In Body select -&gt; \(x-www-form-urlencoded\) and type following keys:
 
-```c
-"email" - enter your email id.
-"passwd" - enter the password
-"collectionName" - Enter any one collection Name from dropdown/other:
- ["Arts & Theatre", "Film", "Miscellaneous", "Music", "Sports", "Undefined","Donation", "Event Style", "Group", "Individual", "Merchandise", "Nonticket", "Parking", "Transportation", "Upsell", "Venue Based"]
-"genre" - Enter any one genre for collections like for "music" it can have following values:
-[R&B,Hip-Hop/Rap,Comedy,Classical,Jazz,Foreign,Dance/Electronic ,Comedy ]
-```
-
-* **/login** select "GET" 
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Key name</th>
+      <th style="text-align:left">description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">email</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">passwd</td>
+      <td style="text-align:left">Enter your password</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">collectionName</td>
+      <td style="text-align:left">
+        <p>Enter any one of following (<b>Music</b> for now):</p>
+        <p>&quot;Arts &amp; Theater&quot;, &quot;Film&quot;, &quot;Miscellaneous&quot;,
+          &quot;Music&quot;, &quot;Sports&quot;, &quot;Undefined&quot;,&quot;Donation&quot;,
+          &quot;Event Style&quot;, &quot;Group&quot;, &quot;Individual&quot;, &quot;Merchandise&quot;,
+          &quot;Nonticket&quot;, &quot;Parking&quot;, &quot;Transportation&quot;,
+          &quot;Upsell&quot;, &quot;Venue Based&quot;]</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">genre</td>
+      <td style="text-align:left">
+        <p>Enter any one of following:</p>
+        <p>&quot;R&amp;B&quot;, &quot;Hip-Hop&quot;,&quot;Rap&quot;,&quot;Comedy&quot;,&quot;Classical&quot;,&quot;Jazz&quot;,&quot;Foreign&quot;,&quot;Dance&quot;,&quot;Electronic&quot;
+          ,&quot;Comedy &quot;</p>
+      </td>
+    </tr>
+  </tbody>
+</table>* **/login** select "GET" 
 
 In Body select -&gt; \(x-www-form-urlencoded\) and type following keys:
 
-```c
-"email" - your email emailId which was registered
-"passwd" - password for emailId used.
-```
+| Key Name | description |
+| :--- | :--- |
+| email | your email email Id which was registered |
+| passwd | password for email Id used. |
 
 * **/getEvents** select "GET"
 
@@ -65,10 +92,10 @@ Output is given in console with error if any.
 
 In Body select -&gt; \(x-www-form-urlencoded\) and use following keys:
 
-```c
-"collectionName" - enter the collection you want to update your preference.
-"genre" - Enter new genre
-```
+| Key Name | description |
+| :--- | :--- |
+| collectionName | enter the collection you want to update your preference |
+| genre | Enter new genre |
 
 ## Why Node.js?  <a id="why-node-js"></a>
 
